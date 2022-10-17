@@ -42,8 +42,12 @@ class App {
 
 // low level class
 class Repository {
+  // private configuration: Configuration;
   // ToDo: 🤢 dependency hell
-  constructor(private configuration: Configuration) {}
+  constructor(private configuration: Configuration) {
+    // this.configuration = configuration;
+  }
+
   public fetch() {
     console.log("📦 Fetching data from repository");
     console.log(this.configuration.repository);
