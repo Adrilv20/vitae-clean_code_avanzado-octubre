@@ -1,0 +1,179 @@
+{
+  "editor.autoIndent": "full",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": true,
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Fira Code', 'Cascadia Mono PL', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "inline",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.quickSuggestionsDelay": 1000,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Control flow",
+        "scope": "keyword.control, keyword.control.flow",
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "name": "Definitions",
+        "scope": [
+          "entity.name.type.class",
+          "meta.definition.method",
+          "meta.definition.property",
+          "meta.definition.function",
+          "entity.name.section.markdown"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Function/Method Calls HTML attributes",
+        "scope": ["meta.function-call", "keyword.operator.new.ts", "entity.other.attribute-name.html"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Other",
+        "scope": [
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.from",
+          "keyword.operator",
+          "meta.type.annotation",
+          "storage"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "explorer.compactFolders": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "node_modules/": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/env/**": true,
+    "dist/": true,
+    "env-*": true
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.wrapLineLength": 100,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "screencastMode.mouseIndicatorColor": "#3fb950",
+  "screencastMode.keyboardOverlayTimeout": 500,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "screencastMode.fontSize": 28,
+  "screencastMode.keyboardShortcutsFormat": "command",
+  "screencastMode.mouseIndicatorSize": 36,
+  "search.exclude": {
+    "**/env": true,
+    "node_modules/": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBorder": "#000000",
+    "editorBracketHighlight.foreground1": "#a371f7",
+    "editorBracketHighlight.foreground2": "#58a6ff",
+    "editorBracketHighlight.foreground3": "#3fb950",
+    "editorBracketHighlight.foreground4": "#d29922",
+    "editorBracketHighlight.foreground5": "#db6d28",
+    "editorBracketHighlight.foreground6": "#f85149",
+    "editorError.foreground": "#B35642",
+    "editorWarning.foreground": "#B38F42",
+    "tab.activeBorder": "#3fb950",
+    "tab.activeBorderTop": "#3fb950"
+  },
+  "cSpell.language": "en,es",
+  "cSpell.userWords": [],
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "terminal.integrated.fontSize": 16,
+  "material-icon-theme.activeIconPack": "angular",
+  "material-icon-theme.files.associations": {
+    "CLI.md": "console",
+    "TASKS.md": "todo",
+    "*.api.ts": "database",
+    "*.constant.ts": "tune",
+    "*.controller.ts": "puppet",
+    "*.dto.ts": "raml",
+    "*.entity.ts": "raml",
+    "*.factory.ts": "hardhat",
+    "*.enum.ts": "document",
+    "*.interceptor.ts": "purescript",
+    "*.interface.ts": "template",
+    "*.model.ts": "raml",
+    "*.page.ts": "angular-resolver",
+    "*.provider.ts": "angular-resolver",
+    "*.repository.ts": "database",
+    "*.store.ts": "redux-store",
+    "*.type.ts": "template",
+    "*.vo.ts": "raml"
+  },
+  "material-icon-theme.folders.associations": {
+    "business": "functions",
+    "domain": "functions",
+    "dto": "rules",
+    "entities": "class",
+    "filters": "other",
+    "login": "secure",
+    "queries": "graphql",
+    "repository": "database",
+    "repositories": "database",
+    "state": "redux-store",
+    "transactions": "pipe",
+    "ui": "components",
+    "users": "secure"
+  },
+  "editor.hover.sticky": true,
+  "editor.hover.above": false,
+  "editor.renderWhitespace": "none",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "editor.fontSize": 18,
+  "debug.console.fontSize": 18,
+  "editor.autoClosingBrackets": "always",
+  "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)"
+}
